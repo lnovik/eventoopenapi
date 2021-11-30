@@ -8,7 +8,11 @@ Repositório com as implementações dos padrões de projeto explorados no Lab "
 
 Neste projeto desenvolvi um sistema para cadastro de eventos e espectadores, utilizei das ferramentas de aprendizados no bootcamp da DIO e fui adaptando de acordo com as minhas
 regras de negócio.
-Este projeto foi  criado usando a linguagem de descrição de interfacer: O Swagger, que serve para descrever APIs RESTful expressas usando JSON.
+Este projeto foi  criado usando a linguagem de descrição de interface: O Swagger, que serve para descrever APIs RESTful expressas usando JSON.
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/57770493/144141076-f4107348-258a-43af-be14-cf2c0161a91f.png" width="700px" />
+</div>
 
 São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
@@ -30,6 +34,5 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 ```
 http://localhost:8080/swagger-ui.html
 ```
-
 
 
