@@ -5,10 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
-import javax.validation.Valid;
-import javax.validation.constraints.Null;
-import javax.validation.constraints.Size;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import java.util.List;
 
 @Entity
@@ -19,10 +18,10 @@ import java.util.List;
 public class Evento {
 
     @Id
-    private String nomeEvento;
-
-    private String Local;
     private String cep;
+
+    private String nomeEvento;
+    private String Local;
     private String horario;
 
     @OneToMany

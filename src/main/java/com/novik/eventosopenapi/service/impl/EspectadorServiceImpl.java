@@ -3,10 +3,10 @@ package com.novik.eventosopenapi.service.impl;
 
 import com.novik.eventosopenapi.entity.Espectador;
 import com.novik.eventosopenapi.entity.Evento;
-import com.novik.eventosopenapi.repository.EventoRepository;
-import com.novik.eventosopenapi.service.ViaCepService;
 import com.novik.eventosopenapi.repository.EspectadorRepository;
+import com.novik.eventosopenapi.repository.EventoRepository;
 import com.novik.eventosopenapi.service.EspectadorService;
+import com.novik.eventosopenapi.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -28,7 +28,6 @@ public class EspectadorServiceImpl implements EspectadorService {
     private ViaCepService viaCepService;
 
 
-
     @Override
     public Iterable<Espectador> buscarTodos() {
         return espectadorRepository.findAll();
@@ -37,6 +36,9 @@ public class EspectadorServiceImpl implements EspectadorService {
     @Override
     public Espectador buscarPorId(Long id) {
         Optional<Espectador> optionalEspectador = espectadorRepository.findById(id);
+        if (optionalEspectador.isEmpty()) {
+            return null;
+        }
         return optionalEspectador.get();
     }
 
