@@ -1,12 +1,12 @@
-package one.digitalinnovation.gof.service.impl;
+package com.lnovik.service.impl;
 
 
-import one.digitalinnovation.gof.entity.Espectador;
-import one.digitalinnovation.gof.entity.Evento;
-import one.digitalinnovation.gof.repository.EspectadorRepository;
-import one.digitalinnovation.gof.repository.EventoRepository;
-import one.digitalinnovation.gof.service.EspectadorService;
-import one.digitalinnovation.gof.service.ViaCepService;
+import com.lnovik.entity.Espectador;
+import com.lnovik.entity.Evento;
+import com.lnovik.repository.EventoRepository;
+import com.lnovik.service.ViaCepService;
+import com.lnovik.repository.EspectadorRepository;
+import com.lnovik.service.EspectadorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

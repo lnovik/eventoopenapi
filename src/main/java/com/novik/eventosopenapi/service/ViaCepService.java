@@ -1,7 +1,7 @@
-package one.digitalinnovation.gof.service;
+package com.lnovik.service;
 
 
-import one.digitalinnovation.gof.entity.Evento;
+import com.lnovik.entity.Evento;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,5 +19,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface ViaCepService {
 
 	@GetMapping("/{cep}/json/")
-	Evento consultarCep(@PathVariable("cep") String cep);
+    Evento consultarCep(@PathVariable("cep") String cep);
 }

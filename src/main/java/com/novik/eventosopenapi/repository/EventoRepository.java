@@ -1,6 +1,6 @@
-package one.digitalinnovation.gof.repository;
+package com.lnovik.repository;
 
-import one.digitalinnovation.gof.entity.Evento;
+import com.lnovik.entity.Evento;
 import org.springframework.data.repository.CrudRepository;
 
 public interface EventoRepository extends CrudRepository<Evento, String> {

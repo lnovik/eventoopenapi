@@ -1,4 +1,4 @@
-package one.digitalinnovation.gof;
+package com.lnovik;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,8 +1,8 @@
-package one.digitalinnovation.gof.controller;
+package com.lnovik.controller;
 
+import com.lnovik.entity.Espectador;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
-import one.digitalinnovation.gof.entity.Espectador;
-import one.digitalinnovation.gof.service.EspectadorService;
+import com.lnovik.service.EspectadorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

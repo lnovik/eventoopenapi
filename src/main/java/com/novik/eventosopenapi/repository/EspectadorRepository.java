@@ -1,6 +1,6 @@
-package one.digitalinnovation.gof.repository;
+package com.lnovik.repository;
 
-import one.digitalinnovation.gof.entity.Espectador;
+import com.lnovik.entity.Espectador;
 import org.springframework.data.repository.CrudRepository;
 
 public interface EspectadorRepository extends CrudRepository<Espectador, Long> {

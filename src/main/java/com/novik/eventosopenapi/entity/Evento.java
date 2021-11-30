@@ -1,4 +1,4 @@
-package one.digitalinnovation.gof.entity;
+package com.lnovik.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

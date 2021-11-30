@@ -1,7 +1,7 @@
-package one.digitalinnovation.gof.service;
+package com.lnovik.service;
 
 
-import one.digitalinnovation.gof.entity.Espectador;
+import com.lnovik.entity.Espectador;
 
 
 public interface EspectadorService {
