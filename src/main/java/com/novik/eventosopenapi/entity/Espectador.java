@@ -1,4 +1,4 @@
-package com.lnovik.entity;
+package com.novik.eventosopenapi.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

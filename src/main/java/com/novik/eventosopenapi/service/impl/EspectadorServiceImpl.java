@@ -1,12 +1,12 @@
-package com.lnovik.service.impl;
+package com.novik.eventosopenapi.service.impl;
 
 
-import com.lnovik.entity.Espectador;
-import com.lnovik.entity.Evento;
-import com.lnovik.repository.EventoRepository;
-import com.lnovik.service.ViaCepService;
-import com.lnovik.repository.EspectadorRepository;
-import com.lnovik.service.EspectadorService;
+import com.novik.eventosopenapi.entity.Espectador;
+import com.novik.eventosopenapi.entity.Evento;
+import com.novik.eventosopenapi.repository.EventoRepository;
+import com.novik.eventosopenapi.service.ViaCepService;
+import com.novik.eventosopenapi.repository.EspectadorRepository;
+import com.novik.eventosopenapi.service.EspectadorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

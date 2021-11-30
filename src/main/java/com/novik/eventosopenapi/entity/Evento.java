@@ -1,12 +1,15 @@
-package com.lnovik.entity;
+package com.novik.eventosopenapi.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import javax.validation.Valid;
+import javax.validation.constraints.Null;
+import javax.validation.constraints.Size;
+import java.util.List;
 
 @Entity
 @Getter
@@ -21,6 +24,10 @@ public class Evento {
     private String Local;
     private String cep;
     private String horario;
+
+    @OneToMany
+    private List<Bandas>bandas;
+
 
 
 

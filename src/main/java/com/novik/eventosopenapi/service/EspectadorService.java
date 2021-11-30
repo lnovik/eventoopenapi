@@ -1,7 +1,7 @@
-package com.lnovik.service;
+package com.novik.eventosopenapi.service;
 
 
-import com.lnovik.entity.Espectador;
+import com.novik.eventosopenapi.entity.Espectador;
 
 
 public interface EspectadorService {

@@ -9,10 +9,10 @@
         <version>2.5.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>digitalinnovation.one</groupId>
-    <artifactId>lab-padroes-projeto-spring</artifactId>
+    <groupId>com.lnovik</groupId>
+    <artifactId>eventosopenapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>lab-padroes-projeto-spring</name>
+    <name>eventosopenapi</name>
     <description>Exemplos de Padrões de Projeto em Spring</description>
 
     <properties>

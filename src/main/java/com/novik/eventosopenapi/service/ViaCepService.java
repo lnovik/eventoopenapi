@@ -1,7 +1,7 @@
-package com.lnovik.service;
+package com.novik.eventosopenapi.service;
 
 
-import com.lnovik.entity.Evento;
+import com.novik.eventosopenapi.entity.Evento;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

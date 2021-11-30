@@ -1,8 +1,8 @@
-package com.lnovik.controller;
+package com.novik.eventosopenapi.controller;
 
-import com.lnovik.entity.Espectador;
+import com.novik.eventosopenapi.entity.Espectador;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
-import com.lnovik.service.EspectadorService;
+import com.novik.eventosopenapi.service.EspectadorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
