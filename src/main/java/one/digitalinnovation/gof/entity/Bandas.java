@@ -1,4 +1,4 @@
-package com.novik.eventosopenapi.entity;
+package one.digitalinnovation.gof.entity;
 
 
 import lombok.AllArgsConstructor;

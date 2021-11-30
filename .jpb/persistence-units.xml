@@ -4,7 +4,7 @@
     <persistence-units>
       <persistence-unit name="Default">
         <packages>
-          <package value="com.novik.eventosopenapi" />
+          <package value="one.digitalinnovation.gof" />
         </packages>
       </persistence-unit>
     </persistence-units>

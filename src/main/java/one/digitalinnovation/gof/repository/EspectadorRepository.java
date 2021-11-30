@@ -1,6 +1,6 @@
-package com.novik.eventosopenapi.repository;
+package one.digitalinnovation.gof.repository;
 
-import com.novik.eventosopenapi.entity.Espectador;
+import one.digitalinnovation.gof.entity.Espectador;
 import org.springframework.data.repository.CrudRepository;
 
 public interface EspectadorRepository extends CrudRepository<Espectador, Long> {

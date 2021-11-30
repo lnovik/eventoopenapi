@@ -1,10 +1,10 @@
-package com.novik.eventosopenapi;
+package one.digitalinnovation.gof;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EventosopenapiApplicationTests {
+class LabPadroesProjetoSpringApplicationTests {
 
 	@Test
 	void contextLoads() {
